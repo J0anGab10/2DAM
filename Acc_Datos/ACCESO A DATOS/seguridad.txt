@@ -1,0 +1,10 @@
+[INFO] Sesión iniciada correctamente.
+[WARNING] Intento de acceso fallido.
+[ERROR] Archivo confidencial modificado sin autorización.
+[INFO] Usuario admin autenticado.
+[INFO] Nuevo intento de inicio de sesión
+[WARNING] Contraseña incorrecta introducida tres veces
+[INFO] Nuevo intento de inicio de sesión
+[WARNING] Contraseña incorrecta introducida tres veces
+[INFO] Nuevo intento de inicio de sesión
+[WARNING] Contraseña incorrecta introducida tres veces
