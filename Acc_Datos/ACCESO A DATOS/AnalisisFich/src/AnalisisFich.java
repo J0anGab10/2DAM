@@ -32,6 +32,15 @@ public class AnalisisFich {
         copia.close();
     }
 
+    // Creamos el metodo que elimina la palabra "Contraseña"
+    public static void limpiarContenido(String fichero, String ficheroCopia) {
+        String contenido = Files.readString(fichero);
+        String contenidoLimpio = contenido.replace("Contraseña", "");
+
+        Files.writeString(contenido, contenidoLimpio);
+        System.out.println("Palabra 'Contraseña' eliminada correctamente de " + contenido.getFileName());
+    }
+
     public static void main (String[]args) throws IOException {
 
         // Primera lectura del archivo
