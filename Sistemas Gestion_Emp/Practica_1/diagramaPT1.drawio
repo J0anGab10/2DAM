@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36">
+  <diagram name="Página-1" id="KftlUgaM5aBCyLU6JM8q">
+    <mxGraphModel dx="987" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D9v8OwtZp2M3YLI861za-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);align=left;verticalAlign=top;fontStyle=1" value="Máquina Anfitriona Windows/Linux" vertex="1">
+          <mxGeometry height="594" width="807" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);align=left;verticalAlign=top;fontStyle=1" value="Máquina Virtual" vertex="1">
+          <mxGeometry height="544" width="525" x="282" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontStyle=1;verticalAlign=top;align=left;" value="Servicios Internos" vertex="1">
+          <mxGeometry height="342" width="485" x="302" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Navegador Cliente" vertex="1">
+          <mxGeometry height="54" width="192" x="55" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="SO Invitado: Ubuntu Server" vertex="1">
+          <mxGeometry height="54" width="254" x="508" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Servicio ERP-CRM: Odoo 18" vertex="1">
+          <mxGeometry height="54" width="253" x="417" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-32" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Servidor: PostgreSQL" vertex="1">
+          <mxGeometry height="82" width="164" x="359" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-33" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Acceso a Internet" vertex="1">
+          <mxGeometry height="140" width="140" x="862" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-34" edge="1" parent="1" source="D9v8OwtZp2M3YLI861za-31" style="curved=1;startArrow=none;endArrow=none;exitX=0.36;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" target="D9v8OwtZp2M3YLI861za-32" value="Puerto 5432 (Localhost)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-35" edge="1" parent="1" source="D9v8OwtZp2M3YLI861za-29" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.98;entryX=0.27;entryY=0;rounded=0;" target="D9v8OwtZp2M3YLI861za-31" value="Peticiones Web (Puerto 8069)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="173" />
+              <mxPoint x="432" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-36" edge="1" parent="1" source="D9v8OwtZp2M3YLI861za-31" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0;entryY=0.29;rounded=0;" target="D9v8OwtZp2M3YLI861za-33" value="Descargas/Actualizaciones (Puerto 443/80)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="646" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9v8OwtZp2M3YLI861za-37" edge="1" parent="1" source="D9v8OwtZp2M3YLI861za-30" style="curved=1;startArrow=none;endArrow=none;rounded=0;" target="D9v8OwtZp2M3YLI861za-28" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
