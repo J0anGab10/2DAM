@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f57feaab-b54b-41b3-b765-8534e9f4a1b0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="27" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="7.086460570103542E-13" />
+      <entry key="MS500" value="0.0037160870169210903" />
+      <entry key="S2" value="0.2469002153613431" />
+      <entry key="S5" value="0.5714899368875886" />
+      <entry key="S10" value="0.7559695441544835" />
+      <entry key="S30" value="0.9167511733182848" />
+      <entry key="S60" value="1.1260926965429916" />
+      <entry key="M2" value="2.139550678557606" />
+      <entry key="M5" value="7.862360490776642" />
+      <entry key="M10" value="18.24840803911076" />
+      <entry key="M15" value="26.324980012447423" />
+      <entry key="M30" value="43.33484504121074" />
+      <entry key="H1" value="62.48869497504745" />
+      <entry key="H2" value="78.71230945925862" />
+      <entry key="H4" value="89.59539059437654" />
+      <entry key="D1" value="100.56381048599074" />
+      <entry key="W1" value="102.64662689906305" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000043516682275" />
+      <entry key="MS500" value="1.0846703110928355" />
+      <entry key="S2" value="1.5394271346535453" />
+      <entry key="S5" value="1.7812195726363504" />
+      <entry key="S10" value="1.883866264058756" />
+      <entry key="S30" value="1.960076450433329" />
+      <entry key="S60" value="2.0009006018516144" />
+      <entry key="M2" value="2.191117481770325" />
+      <entry key="M5" value="3.409206657594888" />
+      <entry key="M10" value="5.844873415649885" />
+      <entry key="M15" value="7.739175132780747" />
+      <entry key="M30" value="11.15046673734352" />
+      <entry key="H1" value="14.125061220891219" />
+      <entry key="H2" value="16.234876008181743" />
+      <entry key="H4" value="17.51980167366946" />
+      <entry key="D1" value="18.73812036469121" />
+      <entry key="W1" value="18.96219349153473" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.406522282463204E-5" />
+      <entry key="MS500" value="0.14053737905686298" />
+      <entry key="S2" value="1.0711211054798606" />
+      <entry key="S5" value="1.934023460280614" />
+      <entry key="S10" value="2.3982914013959507" />
+      <entry key="S30" value="2.787786719866809" />
+      <entry key="S60" value="3.080073351004179" />
+      <entry key="M2" value="4.3014156410146285" />
+      <entry key="M5" value="11.242999821802234" />
+      <entry key="M10" value="24.062351622482055" />
+      <entry key="M15" value="34.035002171002496" />
+      <entry key="M30" value="54.462679704537116" />
+      <entry key="H1" value="76.59853190421863" />
+      <entry key="H2" value="94.93805724839588" />
+      <entry key="H4" value="107.11014098736767" />
+      <entry key="D1" value="119.3010091839835" />
+      <entry key="W1" value="121.60868658691285" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JUhe4YQeBqIFtlBGgC9HgzBH17" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnalisisFich.executor": "Run",
+    "Application.LogActividad3.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DAM2/Desktop/ACCESO A DATOS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DAM2\Desktop\ACCESO A DATOS" />
+      <recent name="C:\Users\DAM2\Desktop\ACCESO A DATOS\AnalisisFich" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnalisisFich">
+    <configuration name="AnalisisFich" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnalisisFich" />
+      <module name="AnalisisFich" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogActividad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogActividad3" />
+      <module name="LogActividad3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnalisisFich" />
+        <item itemvalue="Application.LogActividad3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f57feaab-b54b-41b3-b765-8534e9f4a1b0" name="Changes" comment="" />
+      <created>1789721645648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789721645648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
