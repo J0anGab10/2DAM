@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root type="javafx.scene.layout.StackPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+         stylesheets="@login-estilo.css" styleClass="login-fondo" prefWidth="1024.0" prefHeight="535.0">
+
+    <!-- CAPA DE DECORACIÓN: Los 6 iconos de cubiertos en las posiciones e inclinaciones exactas de tu captura -->
+    <AnchorPane mouseTransparent="true" prefWidth="1024.0" prefHeight="535.0">
+        <!-- Arriba Izquierda -->
+        <ImageView fitWidth="105.0" fitHeight="105.0" layoutX="170.0" layoutY="32.0" preserveRatio="true" rotate="-38.0">
+            <image><Image url="@../img/cubiertos.png"/></image>
+        </ImageView>
+        <!-- Medio Izquierda -->
+        <ImageView fitWidth="105.0" fitHeight="105.0" layoutX="18.0" layoutY="185.0" preserveRatio="true" rotate="-38.0">
+            <image><Image url="@../img/cubiertos.png"/></image>
+        </ImageView>
+        <!-- Abajo Izquierda -->
+        <ImageView fitWidth="105.0" fitHeight="105.0" layoutX="5.0" layoutY="402.0" preserveRatio="true" rotate="-38.0">
+            <image><Image url="@../img/cubiertos.png"/></image>
+        </ImageView>
+        <!-- Arriba Derecha -->
+        <ImageView fitWidth="105.0" fitHeight="105.0" layoutX="760.0" layoutY="52.0" preserveRatio="true" rotate="-38.0">
+            <image><Image url="@../img/cubiertos.png"/></image>
+        </ImageView>
+        <!-- Medio Derecha -->
+        <ImageView fitWidth="105.0" fitHeight="105.0" layoutX="870.0" layoutY="270.0" preserveRatio="true" rotate="-38.0">
+            <image><Image url="@../img/cubiertos.png"/></image>
+        </ImageView>
+        <!-- Abajo Derecha -->
+        <ImageView fitWidth="105.0" fitHeight="105.0" layoutX="958.0" layoutY="440.0" preserveRatio="true" rotate="-38.0">
+            <image><Image url="@../img/cubiertos.png"/></image>
+        </ImageView>
+    </AnchorPane>
+
+    <!-- FORMULARIO CENTRAL IDÉNTICO AL MOCKUP -->
+    <VBox alignment="TOP_CENTER" spacing="14.0" maxWidth="500.0">
+        <padding>
+            <Insets top="38.0" right="10.0" bottom="20.0" left="10.0"/>
+        </padding>
+
+        <Label fx:id="lblTitulo" text="INICIO DE SESION" styleClass="titulo-login"/>
+
+        <Button fx:id="btnCrearCuenta" text="Crear cuenta" styleClass="boton-crear-cuenta">
+            <VBox.margin>
+                <Insets top="8.0" bottom="15.0"/>
+            </VBox.margin>
+        </Button>
+
+        <VBox alignment="CENTER_LEFT" spacing="5.0" maxWidth="485.0">
+            <Label text="CORREO" styleClass="etiqueta-campo"/>
+            <TextField fx:id="txtCorreo" styleClass="campo-borde-negro" prefWidth="485.0" prefHeight="42.0"/>
+        </VBox>
+
+        <VBox alignment="CENTER_LEFT" spacing="5.0" maxWidth="485.0">
+            <VBox.margin>
+                <Insets top="18.0"/>
+            </VBox.margin>
+            <Label text="CONTRASEÑA" styleClass="etiqueta-campo"/>
+            <PasswordField fx:id="txtPassword" styleClass="campo-borde-negro" prefWidth="485.0" prefHeight="42.0"/>
+            <Hyperlink fx:id="linkRecuperar" text="Recuperar contraseña" styleClass="link-recuperar"/>
+        </VBox>
+
+        <Button fx:id="btnConfirmar" text="CONFIRMAR" onAction="#manejarConfirmacion" styleClass="boton-confirmar">
+            <VBox.margin>
+                <Insets top="16.0"/>
+            </VBox.margin>
+        </Button>
+    </VBox>
+</fx:root>

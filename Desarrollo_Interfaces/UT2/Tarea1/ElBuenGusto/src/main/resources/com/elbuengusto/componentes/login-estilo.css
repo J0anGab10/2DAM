@@ -1,0 +1,73 @@
+.login-fondo {
+    -fx-background-color: #F6F5EC;
+}
+
+.titulo-login {
+    -fx-font-family: "Lora", "Georgia", serif;
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.boton-crear-cuenta {
+    -fx-background-color: #556B2F;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Lora", "Georgia", serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 25px;
+    -fx-pref-width: 132px;
+    -fx-pref-height: 36px;
+    -fx-cursor: hand;
+}
+
+.boton-crear-cuenta:hover {
+    -fx-background-color: #647D38;
+}
+
+.etiqueta-campo {
+    -fx-font-family: "Lora", "Georgia", serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.campo-borde-negro {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #000000;
+    -fx-border-width: 2.5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-font-size: 15px;
+    -fx-padding: 6px 10px;
+}
+
+.link-recuperar {
+    -fx-font-family: "Lora", "Georgia", serif;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0000CD;
+    -fx-underline: true;
+    -fx-border-color: transparent;
+    -fx-padding: 2px 0 0 4px;
+}
+
+.boton-confirmar {
+    -fx-background-color: #556B2F;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Lora", "Georgia", serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 30px;
+    -fx-pref-width: 175px;
+    -fx-pref-height: 54px;
+    -fx-cursor: hand;
+}
+
+.boton-confirmar:hover {
+    -fx-background-color: #647D38;
+}
+
+.boton-confirmar:disabled {
+    -fx-opacity: 0.55;
+}
