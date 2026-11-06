@@ -1,14 +1,11 @@
-# 08_calculadora_segura.py
-
 while True:
     try:
-        # Pedimos el primer número o la palabra SALIR
+        # Pedimos el primer número
         entrada1 = input("Número 1: ")
         if entrada1.upper() == "SALIR":
             break
         n1 = float(entrada1)
 
-        # Pedimos el operador
         op = input("Operador (+, -, *, /): ")
         if op.upper() == "SALIR":
             break
@@ -19,7 +16,6 @@ while True:
             break
         n2 = float(entrada2)
 
-        # Validación con raise
         if op not in ["+", "-", "*", "/"]:
             raise ValueError("Operador no soportado")
 
@@ -31,7 +27,6 @@ while True:
         elif op == "*":
             resultado = n1 * n2
         elif op == "/":
-            # La división entre 0 lanzará automáticamente el ZeroDivisionError
             resultado = n1 / n2
 
     # Captura de errores
@@ -46,6 +41,5 @@ while True:
     except ZeroDivisionError:
         print("[ERROR]: No se puede dividir entre cero.\n")
 
-    # Cláusula else: solo se ejecuta si NO hubo ningún error en el try
     else:
         print(f"[ÉXITO]: {n1} {op} {n2} = {resultado:.2f}\n")
